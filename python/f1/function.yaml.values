@@ -1,0 +1,27 @@
+handler:
+  displayName: Handler
+  kind: string
+  description: ""
+  required: true
+  attributes:
+    defaultValue: ''
+
+minReplicas:
+  displayName: Min replicas
+  kind: integer
+  description: ""
+  description: ""
+  attributes:
+    defaultValue: 30
+    minValue: 0
+    maxValue: 50
+
+maxReplicas:
+  displayName: Min replicas
+  kind: integer
+  description: ""
+  description: ""
+  attributes:
+    defaultValue: 30
+    minValue: 0
+    maxValue: 50
