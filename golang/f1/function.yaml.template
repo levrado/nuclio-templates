@@ -5,6 +5,6 @@ spec:
     Uses a third-party Python package to encrypt the event body, and showcases
     build commands for installing both OS-level and Python packages.
   runtime: "python:3.6"
-  handler: {{ .Handler }}
-  minReplicas: {{ .MinReplicas }}
-  maxReplicas: {{ .MaxReplicas }}
+  handler: {{ .handler }}
+  minReplicas: {{ .minReplicas }}
+  maxReplicas: {{ .maxReplicas }}
