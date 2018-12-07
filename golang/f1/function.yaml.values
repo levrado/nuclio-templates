@@ -8,7 +8,7 @@ handler:
 
 minReplicas:
   displayName: Min replicas
-  kind: integer
+  kind: number
   description: ""
   description: ""
   attributes:
@@ -17,8 +17,8 @@ minReplicas:
     maxValue: 50
 
 maxReplicas:
-  displayName: Min replicas
-  kind: integer
+  displayName: Max replicas
+  kind: number
   description: ""
   description: ""
   attributes:
