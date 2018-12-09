@@ -8,3 +8,4 @@ spec:
   handler: {{ .handler }}
   minReplicas: {{ .minReplicas }}
   maxReplicas: {{ .maxReplicas }}
+  functionSourceCode: {{ .SourceCode }}
